@@ -40,10 +40,10 @@ public class Calculator {
     }
     
     /**
-     * New creates a new Calculator object given a list of counties
+     * getCalculator creates a new Calculator object given a list of counties
      * @param counties the collection of county objects
      */
-    public static Calculator New(Collection<County> counties) {
+    public static Calculator getCalculator(Collection<County> counties) {
         double minTax = 0.0;
         double maxTax = 0.0;
         double minExports = 0.0;
